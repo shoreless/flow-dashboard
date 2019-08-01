@@ -31,7 +31,7 @@ build_js(){
 }
 
 deploy(){
-	check_tests
+	# check_tests
 	build_js
 	cd ../
 	gcloud config configurations activate flow
